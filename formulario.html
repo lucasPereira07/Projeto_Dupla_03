@@ -1,118 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Formulário Conectta</title>
+    <title>Formulário Mundo dos Baixinhos</title>
 </head>
 
 <body>
+    <header>
+        <img src="./assets/IMG/Logo moda infantil rosa.png" alt="Logo do Reino dos Baixinhos">
+        <nav>
+            <a href="./index.html">Início</a> |
+            <a href="./index.html#produtos">Produtos</a> |
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-    <h2>Para finalizar a compra da sua passagem nos confirme alguns dos seus dados pessoais e o seu melhor e-mail </h2>
-
-        <form action="">
-            <fieldset>
-                <legend>INFORMAÇÕES PESSOAIS</legend><br>
-                <fieldset>
-                    <label>Nome:</label>
-                    <input type="text" placeholder="Digite seu nome..."><br>
-
-                    <label>RG:</label>
-                    <input type="number" placeholder="Ex:12345678910"><br>
-
-                    <label>CPF:</label>
-                    <input type="number" placeholder="12345678910"><br>
-
-                    <label>Data de nascimento:</label>
-                    <input type="date"><br>
-
-                    <label>E-mail:</label>
-                    <input type="email" placeholder="Ex: lucascd895@gmail.com">
-
-                </fieldset><br>
-
-                <br>
-
-                <fieldset>
-                    <legend>ENDEREÇO</legend>
-
-                    <label>CEP:</label>
-                    <input type="number" placeholder="Ex:0373600"><br>
-
-                    <label>Rua:</label>
-                    <input type="text" placeholder="Ex: Av. Assis Ribeiro"><br>
-
-                    <label>Número:</label>
-                    <input type="number" placeholder="Número do endereço.."><br>
-
-                    <label>Complemento:</label>
-                    <input type="text" placeholder="(Opcional)"><br>
-
-                    <label>Cidade:</label>
-                    <input type="text" placeholder="Ex: Santana"><br>
-
-                    <label>Estado:</label>
-                    <input list="Estados" type="text" placeholder="Ex: SP">
-                    <datalist id="Estados">
-                        <option value="AC"></option>
-                        <option value="AL"></option>
-                        <option value="AP"></option>
-                        <option value="AM"></option>
-                        <option value="BA"></option>
-                        <option value="CE"></option>
-                        <option value="DF"></option>
-                        <option value="ES"></option>
-                        <option value="GO"></option>
-                        <option value="MA"></option>
-                        <option value="MT"></option>
-                        <option value="MS"></option>
-                        <option value="MG"></option>
-                        <option value="PA"></option>
-                        <option value="PB"></option>
-                        <option value="PR"></option>
-                        <option value="PE"></option>
-                        <option value="PI"></option>
-                        <option value="RJ"></option>
-                        <option value="RN"></option>
-                        <option value="RS"></option>
-                        <option value="RO"></option>
-                        <option value="RR"></option>
-                        <option value="SC"></option>
-                        <option value="SP"></option>
-                        <option value="SE"></option>
-                        <option value="TO"></option>
-                    </datalist><br><br>
-                </fieldset><br>
-
-                <label>Clique em "ENVIAR" para receber um e-mail com as informações para pagamento.</label>
-
-                <br><br><input type="submit" value="ENVIAR">
-            </fieldset>
-
-        </form>
-
-        <br><br>
-
-        <h3>Por favor, deixe a sua avaliação sobre os nossos serviços:</h3><br>
-
-        <form>
+    <p>Para finalizar a compra da sua passagem nos confirme alguns dos seus dados e o seu melhor e-mail.</p>
+    <form action="./index.html">
+        <fieldset>
+            <legend>INFORMAÇÕES PESSOAIS</legend><br>
             <fieldset>
                 <label>Nome:</label>
                 <input type="text" placeholder="Digite seu nome..."><br>
-                <label>E-mail</label>
-                <input type="email" placeholder="Ex: antonio81@gmail.com"><br>
-                <hr>
-                <label>Nos diga o que gostou e não gostou do nosso site para podermos melhorar.</label><br>
-                <textarea cols="35" rows="15" placeholder="Digite aqui..."></textarea><br><br>
-                <input type="submit" value="ENVIAR">
+
+                <label>RG:</label>
+                <input type="number" placeholder="Ex:12345678910"><br>
+
+                <label>CPF:</label>
+                <input type="number" placeholder="12345678910"><br>
+
+                <label>Data de nascimento:</label>
+                <input type="date"><br>
+
+                <label>E-mail:</label>
+                <input type="email" placeholder="Ex: lucascd895@gmail.com">
+
+            </fieldset><br>
+
+            <fieldset>
+                <legend>PRODUTOS ESCOLHIDOS</legend>
+                <input type="checkbox">
+                <label>Camiseta Homem Aranha</label><br>
+                <input type="checkbox">
+                <label>Camiseta Batman</label><br>
+                <input type="checkbox">
+                <label>Bermuda Camuflada</label><br>
+                <input type="checkbox">
+                <label>Calça Preta</label><br>
+                <input type="checkbox">
+                <label>Boné Hulk</label><br>
             </fieldset>
-        </form>
 
-        <br><br>
+            <label>Clique em "ENVIAR" para receber um e-mail com as informações para pagamento.</label>
 
-        <footer>
+            <br><br><input type="submit" value="ENVIAR">
+        </fieldset>
 
-        </footer>
+    </form>
+
+    <br><br>
+
+    <h3>Por favor deixe sua satisfação sobre a Coneccta:</h3><br>
+
+    <form action="./index.html">
+        <fieldset>
+            <label>Nome:</label>
+            <input type="text" placeholder="Digite seu nome..."><br>
+            <label>E-mail</label>
+            <input type="email" placeholder="Ex: antonio81@gmail.com"><br><hr>
+            <label>Dicas e sugestões para ajustes do nosso site.</label><br>
+            <textarea cols="35" rows="15" placeholder="Digite aqui..."></textarea><br><br>
+            <input type="submit" value="ENVIAR">
+        </fieldset>
+    </form>
+
+    <br><br>
+
+    <footer>
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+
+            <a target="blank" href="mailto:lucascd895@gmail.com">
+                <img src="./assets/IMG/gmail.png" alt="gmail"></a>
+
+            <a target="blank" href="tel:+5511986880185">
+                <img src="./assets/IMG/telefone.png" alt="telefone"></a>
+
+            <a target="blank" href="https://www.instagram.com/corinthians/">
+                <img src="./assets/IMG/simbolo instagram.jpg" alt="instagram"></a>
+
+            <a target="blank" href="https://wa.me/5511958413838">
+                <img src="./assets/IMG/whattsapp.jpg" alt="whattsapp"></a>
+        </section>
+
+        <br><hr><br>
+
+        <br>
+
+        <p>&copy; 2024 Coneccta Linhas Aereas. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>

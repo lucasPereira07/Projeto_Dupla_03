@@ -1,28 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <title>Coneccta Linhas Aéreas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <h1>Coneccta Linhas Aéreas</h1>  
+<div class="container">
     <header>
-         
-        <span>Coneccta Linhas Aéreas</span>
-        <ul class="navlist">
-            <li><a href=""></a>Ofertas e Destinos</li>
-            <li><a href=""></a>Minhas Viagens</li>
-            <li><a href=""></a>Central de Ajuda</li>
+        <div>
+            <img src="./assets/IMG/avião.jpg" alt="avião">
+        </div>
+      <div class="logo">
+        <img src="" alt="">
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Pacotes</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">FAQ</a></li>
         </ul>
+      </div>
+
+      <div class="button">
+        <button>
+          <a href="#">Login</a>
+        </button>
+      </div>
     </header>
 
-    <img src="./assets/IMG/avião.jpg" alt="">
-    
-    <h2>Descubra sua próxima viagem</h2>
-     <span>
-        Acumule
-                <strong>Pontos Coneccta Pass</strong>
-         e 
-        <strong>Pontos Qualificáveis</strong>
-     </span>
+    <main>
+      <div class="top-main">
+        <div class="titulo">
+          <h1>Descubra sua próxima viagem</h1>
+  
+          <div class="bottom-main">
+            <div class="search">
+              <div id="locais">
+                <label for="">Locais</label>
+                <select name="Select" id="">
+                  <option value="valor1">Brasil</option>
+                  <option value="valor1">Estados Unidos</option>
+                  <option value="valor1">Chile</option>
+                  <option value="valor1">Italia</option>
+                  <option value="valor1">Africa</option>
+                </select>
+              </div>
+      
+              <div id="hotel">
+                <label for="">Hotel</label>
+                <select name="Select" id="">
+                  <option value="hotel1">(BRA)São Paulo</option>
+                  <option value="hotel2">(EUA)Nova Iorque</option>
+                  <option value="hotel3">(CHI)Santiago</option>
+                  <option value="hotel4">(ITA)Grecia</option>
+                  <option value="hotel5">(AFR)Madagascar</option>
+                </select>
+              </div>
+
+              <div id="Data">
+                <label for="">Selecione uma Data</label>
+                <input placeholder="01/01/2024" id="date" type="date">
+              </div>
+            </div>
+
+          <h3>Acumule Pontos Coneccta Pass e Pontos Qualificáveis</h3>
+        </div>
+      </div>
+  
+        <div class="button-search">
+          <button id="button-search">
+            <img src="/assets/icon-search.svg" alt="" srcset="">
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
 </body>
+
 </html>
